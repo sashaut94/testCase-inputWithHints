@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: white;
+  height: 213px;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+}
+
+.list {
+  margin: 0;
+  padding: 16px 0;
+  list-style: none;
+  overflow-y: scroll;
+  width: 100%;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.noContacts {
+  margin: auto;
+}
